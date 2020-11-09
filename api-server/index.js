@@ -1,7 +1,13 @@
 const express = require("express");
 const app = express();
-const port = 5000;
+const SERVER_PORT = 5000;
 
-app.listen(port, () => {
-	console.log(`Listening on http://localhost:${port}`);
+app.get("/", (req, res) => {
+	res.json({
+		message: "Welcome to church!",
+	});
+});
+
+app.listen(SERVER_PORT, () => {
+	console.log(`Listening on http://localhost:${SERVER_PORT}`);
 });
