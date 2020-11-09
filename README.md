@@ -19,81 +19,81 @@ ONEPLACE is an online live video streaming platform.
 
 ## Front-end
 
--  [] Create client folder
--  [] Setup index.html
--  [] Bring in Skeleton CSS
+-  [ ] Create client folder
+-  [ ] Setup index.html
+-  [ ] Bring in Skeleton CSS
    -  http://getskeleton.com/
    -  https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css
--  [] Create Header
--  [] Create form
-   -  [] Name
-   -  [] Content
-   -  [] u-full-width to both inputs
--  [] Listen for form submit
--  [] Hide the form
--  [] Show loading spinner
--  [] Get data from form and log it
+-  [ ] Create Header
+-  [ ] Create form
+   -  [ ] Name
+   -  [ ] Content
+   -  [ ] u-full-width to both inputs
+-  [ ] Listen for form submit
+-  [ ] Hide the form
+-  [ ] Show loading spinner
+-  [ ] Get data from form and log it
 -  ✅ Get user input on the Client
 -  ✅ Hide/Show elements on the client
 
 ## Back-end
 
--  [] Create server folder
--  [] npm init -y
--  [] npm install express morgan
--  [] Setup index.js
--  [] Add GET / route
--  [] Add POST /mews route
-   -  [] log out req.body
+-  [ ] Create server folder
+-  [ ] npm init -y
+-  [ ] npm install express morgan
+-  [ ] Setup index.js
+-  [ ] Add GET / route
+-  [ ] Add POST /mews route
+   -  [ ] log out req.body
 
 ## Front-end
 
--  [] fetch POST /mews with form data
--  [] See the CORS error and revel in this moment
+-  [ ] fetch POST /mews with form data
+-  [ ] See the CORS error and revel in this moment
 -  ✅ Send user input from the client with fetch to the server
 
 ## Back-end
 
--  [] npm install cors
--  [] Make sure the server is recieving the data
--  [] Add JSON body parser middleware
--  [] Validate name and content
-   -  [] Must be a string
-   -  [] Cannot be empty
--  [] If not valid
-   -  [] Error code 422
-   -  [] Invalid mew, must contain name and content
--  [] Setup DB Connection
-   -  [] npm install monk
-   -  [] connect to db
-   -  [] create document collection (mews)
--  [] If Valid
-   -  [] Create mew object with
-      -  [] name, content, created_date
-   -  [] Insert into DB
-   -  [] Respond with created mew object
+-  [ ] npm install cors
+-  [ ] Make sure the server is recieving the data
+-  [ ] Add JSON body parser middleware
+-  [ ] Validate name and content
+   -  [ ] Must be a string
+   -  [ ] Cannot be empty
+-  [ ] If not valid
+   -  [ ] Error code 422
+   -  [ ] Invalid mew, must contain name and content
+-  [ ] Setup DB Connection
+   -  [ ] npm install monk
+   -  [ ] connect to db
+   -  [ ] create document collection (mews)
+-  [ ] If Valid
+   -  [ ] Create mew object with
+      -  [ ] name, content, created_date
+   -  [ ] Insert into DB
+   -  [ ] Respond with created mew object
 -  ✅ Store data in a database
 
 ## Front-end
 
--  [] Log out created Mew after POST request
--  [] Show the form
--  [] Hide loading spinner
+-  [ ] Log out created Mew after POST request
+-  [ ] Show the form
+-  [ ] Hide loading spinner
 
 ## Back-end
 
--  [] GET /mews
-   -  [] Respond with mews from DB
+-  [ ] GET /mews
+   -  [ ] Respond with mews from DB
 -  ✅ Retrieve data from a database on the Server
 
 ## Front-end
 
--  [] fetch GET /mews
-   -  [] Iterate over array
-   -  [] Append each to page
-   -  [] Reverse before appending
-   -  [] Show the form
-   -  [] Hide loading spinner
+-  [ ] fetch GET /mews
+   -  [ ] Iterate over array
+   -  [ ] Append each to page
+   -  [ ] Reverse before appending
+   -  [ ] Show the form
+   -  [ ] Hide loading spinner
 -  [ ] fetch GET /mews after creating a mew
 -  ✅ Retrieve data from a server on the client using Fetch
 -  ✅ Hide/Show elements on the client
@@ -109,8 +109,8 @@ ONEPLACE is an online live video streaming platform.
 ## Deploy
 
 -  ✅ Deploy server with now
-   -  [] Setup environment variables
-      -  [] Database connection
+   -  [ ] Setup environment variables
+      -  [ ] Database connection
          -  process.env.MONGO_URI
    -  ✅ Show mlab
    -  [ ] Deploy with environment variable
