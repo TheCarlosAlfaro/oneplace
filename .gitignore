@@ -2,6 +2,9 @@
 # Created by https://www.toptal.com/developers/gitignore/api/macos,vscode,node,react,dotenv,yarn
 # Edit at https://www.toptal.com/developers/gitignore?templates=macos,vscode,node,react,dotenv,yarn
 
+# tailwindcss output
+src/index.css
+
 ### dotenv ###
 .env
 
