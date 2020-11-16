@@ -6,6 +6,7 @@ ONEPLACE is an online live video streaming platform.
 
 -  [ ] 📝 Diagram the Full Stack
 -  [ ] 🔎 Differentiate between Client and Server
+-  [ ] 🔎 Create basic server
 -  [ ] ⌨️ Get user input on the Client
 -  [ ] ➡️ Send user input from the client with fetch to the server
 -  [ ] 🗃 Store data in a database
