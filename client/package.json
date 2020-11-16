@@ -41,6 +41,7 @@
   "devDependencies": {
     "autoprefixer": "^10.0.1",
     "postcss-cli": "^8.2.0",
-    "tailwindcss": "^1.9.6"
+    "tailwindcss": "^1.9.6",
+    "video.js": "^7.10.2"
   }
 }
