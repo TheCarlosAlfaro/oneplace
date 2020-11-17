@@ -8,6 +8,7 @@ const dbConnect = process.env.DB_CONNECT;
 
 // Routes
 const authRoute = require("./routes/auth");
+const postRoute = require("./routes/posts");
 
 // Connect to DB
 mongoose.connect(
@@ -23,12 +24,7 @@ app.use(express.json());
 
 // Routes Middlewares
 app.use("/api/user", authRoute);
-
-app.get("/", (req, res) => {
-	res.json({
-		message: "Welcome to OnePlace!",
-	});
-});
+app.use("/api/posts", postRoute);
 
 app.listen(PORT, () => {
 	console.log(`Server listening on http://localhost:${PORT}`);
