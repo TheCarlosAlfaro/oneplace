@@ -6,6 +6,9 @@ require("dotenv").config();
 const PORT = process.env.SERVER_PORT;
 const dbConnect = process.env.DB_CONNECT;
 
+// Routes
+const authRoute = require("./routes/auth");
+
 // Connect to DB
 mongoose.connect(
 	dbConnect,
@@ -15,10 +18,10 @@ mongoose.connect(
 	}
 );
 
-// Routes
-const authRoute = require("./routes/auth");
+// Middleware
+app.use(express.json());
 
-// Middlewares
+// Routes Middlewares
 app.use("/api/user", authRoute);
 
 app.get("/", (req, res) => {
