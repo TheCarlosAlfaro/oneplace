@@ -1,16 +1,10 @@
 import React from "react";
-import { BrowserRouter as Link, Router } from "react-router-dom";
 
 export default function Nav() {
 	return (
 		<nav>
 			<ul>
-				<li>
-					<Link to="/">Home</Link>
-				</li>
-				<li>
-					<Link to="/login">Login</Link>
-				</li>
+				<li>Soon to be a link</li>
 			</ul>
 		</nav>
 	);
