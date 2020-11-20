@@ -1,28 +1,34 @@
 import React from "react";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
-import VideoPlayer from "./components/VideoPlayer";
+import Login from "./components/Login";
+import Home from "./components/Home";
 
-const videoJsOptions = {
-	autoplay: true,
-	controls: true,
-	sources: [
-		{
-			src:
-				"https://2435a7b9bc4b.us-east-1.playback.live-video.net/api/video/v1/us-east-1.729800231433.channel.IswryxhtAliK.m3u8",
-			type: "application/x-mpegURL",
-		},
-	],
-};
-
-function App() {
+export default function App() {
 	return (
-		<>
-			<h1 className="text-6xl font-mono tracking-wide text-purple-600">
-				Welcome to <span className="font-black">ONEPLACE</span>
-			</h1>
-			<VideoPlayer {...videoJsOptions} />
-		</>
+		<Router>
+			<div>
+				<nav>
+					<ul>
+						<li>
+							<Link to="/">Home</Link>
+						</li>
+						<li>
+							<Link to="/login">Login</Link>
+						</li>
+					</ul>
+				</nav>
+
+				<Switch>
+					<Route path="/login">
+						<Login />
+					</Route>
+
+					<Route path="/">
+						<Home />
+					</Route>
+				</Switch>
+			</div>
+		</Router>
 	);
 }
-
-export default App;

@@ -20,12 +20,10 @@ ONEPLACE is an online live video streaming platform.
 
 ## Front-end
 
--  [ ] Create client folder
--  [ ] Setup index.html
--  [ ] Bring in Skeleton CSS
-   -  http://getskeleton.com/
-   -  https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css
--  [ ] Create Header
+-  [x] Create client folder
+-  [x] Create react app
+-  [x] Install tailwindcss
+-  [ ] Implement CSS grid for home layout
 -  [ ] Create form
    -  [ ] Name
    -  [ ] Content
@@ -39,12 +37,12 @@ ONEPLACE is an online live video streaming platform.
 
 ## Back-end
 
--  [ ] Create server folder
--  [ ] npm init -y
--  [ ] npm install express morgan
--  [ ] Setup index.js
--  [ ] Add GET / route
--  [ ] Add POST /mews route
+-  [x] Create server folder
+-  [x] npm init -y
+-  [x] npm install express morgan
+-  [x] Setup index.js
+-  [x] Add GET / route
+-  [x] Add POST / route
    -  [ ] log out req.body
 
 ## Front-end
