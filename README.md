@@ -23,10 +23,10 @@ ONEPLACE is an online live video streaming platform.
 -  [x] Create client folder
 -  [x] Create react app
 -  [x] Install tailwindcss
--  [ ] Implement CSS grid for home layout
 -  [ ] Implement routing
    -  [ ] Sign up
    -  [ ] Sign in/out
+-  [ ] Implement CSS grid for home layout
 
 ## Back-end
 
