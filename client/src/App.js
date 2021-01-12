@@ -10,7 +10,7 @@ export default function App() {
   return (
     <Router>
       <div>
-        <nav className="py-2 bg-green-600 text-white">
+        <nav className="py-2 bg-green-600 text-white text-xs">
           <ul className="container flex">
             <li className="mr-4">
               <Link to="/">Home</Link>
