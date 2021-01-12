@@ -9,10 +9,10 @@ import Home from "./components/Home";
 export default function App() {
   return (
     <Router>
-      <div className="navigation__container">
-        <nav>
-          <ul>
-            <li>
+      <div>
+        <nav className="py-2 bg-green-600 text-white">
+          <ul className="container flex">
+            <li className="mr-4">
               <Link to="/">Home</Link>
             </li>
             <li>

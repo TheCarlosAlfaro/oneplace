@@ -18,12 +18,15 @@ import IvsPlayer from "./IvsPlayer";
 function Home() {
   return (
     <>
-      <h1 className="text-6xl font-mono tracking-wide text-purple-600">
+      {/* <h1 className="text-6xl font-mono tracking-wide text-purple-600">
         Welcome to <span className="font-black">ONEPLACE</span>
-      </h1>
+      </h1> */}
       {/* <VideoPlayer {...videoJsOptions} /> */}
       {/* Standalone implementation */}
-      <IvsPlayer />
+      <div className="flex">
+        <IvsPlayer />
+        <div>Fake chat</div>
+      </div>
     </>
   );
 }
